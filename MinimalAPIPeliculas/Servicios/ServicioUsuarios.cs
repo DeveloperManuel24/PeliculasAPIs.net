@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
 namespace MinimalAPIPeliculas.Servicios
-{
+{//Servicio capaz de extraer los claims para su uso posterior
     public class ServicioUsuarios : IServicioUsuarios
     {
         private readonly IHttpContextAccessor httpContextAccessor;
